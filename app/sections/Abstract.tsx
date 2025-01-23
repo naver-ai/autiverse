@@ -16,9 +16,9 @@ export const Abstract = () => {
                 <ArxivIcon size={20}/>
                 <span>arXiv</span>
             </a>
-            <a className="icon-label-button" href="#">
+            <a className="icon-label-button" href="https://github.com/naver-ai/aacesstalk-monorepo" target="_blank">
                 <GithubIcon size={28}/>
-                <span>Source code (Coming Soon)</span>
+                <span>Source code</span>
             </a>
         </div>
     </Section>
