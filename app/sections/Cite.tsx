@@ -16,7 +16,7 @@ const bibTex = "@inproceedings{choi2025aacesstalk,<br/>\n\
 export const Cite = () => {
     return <Section title="Citing This Work">
         <div className="border-y-2 border-purple-500/30 py-3">
-            <div>Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, and Young-Ho Kim. 2024.</div>
+            <div>Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, and Young-Ho Kim. 2025.</div>
             <div className="font-bold">AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation.</div>
             <div>In CHI Conference on Human Factors in Computing Systems (CHI ’25)</div>
             <div>https://doi.org/10.1145/3706598.3713792</div>
