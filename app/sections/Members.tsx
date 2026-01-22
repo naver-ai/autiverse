@@ -3,18 +3,12 @@ import { HomeIcon } from '@heroicons/react/20/solid'
 
 const members = [
     {
-        name: "Dasom Choi",
-        affiliation: "KAIST",
-        role: "PhD Candidate",
-        thumb: require("../../public/images/thumb-dschoi.jpg"),
-        web: "https://dasomchoi.com/",
-        note: "*Research intern at NAVER AI Lab"
-    },
-    {
-        name: "SoHyun Park",
-        affiliation: "NAVER Cloud",
-        role: "Researcher",
-        thumb: require("../../public/images/thumb-shpark.jpg")
+        name: "Migyeong Yang",
+        affiliation: "NAVER AI Lab",
+        role: "Research Scientist",
+        thumb: require("../../public/images/thumb-mgyang.jpg"),
+        web: "https://yangmigyeong.github.io/",
+        note: "*Research intern at NAVER AI Lab while at Sungkyunkwan University"
     },
     {
         name: "Kyungah Lee",
@@ -23,11 +17,17 @@ const members = [
         thumb: require("../../public/images/thumb-kalee.jpg"),
     },
     {
-        name: "Hwajung Hong",
-        affiliation: "KAIST",
+        name: "Jinyoung Han",
+        affiliation: "Sungkyunkwan University",
         role: "Associate Professor",
-        thumb: require("../../public/images/thumb-hjhong.jpg"),
-        web: "https://galaxytourist.notion.site/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+        thumb: require("../../public/images/thumb-jyhan.jpg"),
+        web: "https://dsail.skku.edu"
+    },
+    {
+        name: "SoHyun Park",
+        affiliation: "NAVER Cloud",
+        role: "Researcher",
+        thumb: require("../../public/images/thumb-shpark.jpg")
     },
     {
         name: "Young-Ho Kim",
@@ -65,7 +65,7 @@ export const Members = () => {
         </div>
         <div className="mt-8 flex items-center gap-6 gap-y-8 flex-wrap">
             <a href="https://clova.ai/en/ai-research" target="_black"><img className="w-[200px]" alt="NAVER logo" src={require("../../public/images/logos/ai_lab_logo_vertical.png")} width={1728} height={552}/></a>
-            <a href="https://www.kaist.ac.kr/en/" target="_blank"><img className="w-[200px]" alt="KAIST logo" src={require("../../public/images/logos/kaist_logo_trans.png")}/></a>
+            <a href="https://www.skku.edu/eng/" target="_blank"><img className="w-[300px]" alt="SKKU logo" src={require("../../public/images/logos/skku_logo.png")}/></a>
             <a href="https://www.navercloudcorp.com/" target="_blank"><img className="w-[135px]" alt="NAVER Cloud logo" src={require("../../public/images/logos/naver-cloud-logo-vertical.png")}/></a>
             
         </div>
