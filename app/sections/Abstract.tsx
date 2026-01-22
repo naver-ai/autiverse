@@ -15,10 +15,10 @@ export const Abstract = () => {
         We discuss implications for adaptive scaffolding across autism profiles, socio-emotionally appropriate AI peer design, and balancing autonomy with parental involvement.
         </p>
 
-        <div className="flex items-center gap-2 my-4">
+        {/* <div className="flex items-center gap-2 my-4">
             <TrophyIcon className="w-6 h-6 text-pink-600"/>
             <span className="font-semibold text-pink-600 text-xl">CHI 2026</span>
-        </div>
+        </div> */}
 
         <div className="flex flex-wrap gap-4 mt-4">
             <a className="icon-label-button bg-teal-500 pl-4" aria-disabled={true} href={"./public/autiverse-chi26.pdf"} target="_blank">
