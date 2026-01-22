@@ -1,6 +1,6 @@
-# AACessTalk Project Website
+# Autiverse Project Website
 
-https://naver-ai.github.io/aacesstalk/
+https://naver-ai.github.io/autiverse/
 
 
 ## How to Run
@@ -27,9 +27,9 @@ https://naver-ai.github.io/aacesstalk/
 ### Deploying Website to Github Pages
 1. Change public url in `package.json`:
    ```json
-    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/aacesstalk",
+    "build": "rm -rf dist && rm -rf .parcel-cache && rm -rf .cache && parcel build index.html ./public/*.pdf --public-url https://naver-ai.github.io/autiverse",
    ```
-   Replace the public-url argument value 'https://naver-ai.github.io/aacesstalk' with the domain you are using.
+   Replace the public-url argument value 'https://naver-ai.github.io/autiverse' with the domain you are using.
 2. Run deployment script:
    ```sh
    > npm run deploy
