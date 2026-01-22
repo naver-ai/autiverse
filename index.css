@@ -25,7 +25,7 @@ body {
       var(--background-end-rgb)
     )
     var(--background-start-rgb);*/
-  background: #fcfcfc;
+  background: #f9fafc;
 }
 
 @layer base{

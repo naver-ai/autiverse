@@ -21,7 +21,7 @@ const members = [
         affiliation: "Sungkyunkwan University",
         role: "Associate Professor",
         thumb: require("../../public/images/thumb-jyhan.jpg"),
-        web: "https://dsail.skku.edu"
+        web: "https://sites.google.com/view/datasciencelab/home"
     },
     {
         name: "SoHyun Park",

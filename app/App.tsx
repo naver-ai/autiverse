@@ -16,8 +16,8 @@ export function App() {
           {/* <span>CHI 2025 Best Paper Award</span> */}
           <span>CHI 2026 Paper</span>
         </div>
-        <img className="mb-2 h-[95px] ml-[-30px] md:h-[110px] md:ml-[-7px]" src={require("../public/images/logos/autiverse-logo.svg")}/> 
-        <div className="font-light leading-8 sm:leading-[2.5rem] text-2xl sm:text-3xl">Eliciting <strong>Autistic Adolescent</strong>s' Daily Narratives through AI-guided Multimodal Journaling</div>
+        <img className="mb-2 h-[110px] w-auto" src={require("../public/images/logos/autiverse-logo.svg")}/> 
+        <div className="font-light leading-8 sm:leading-[2.5rem] text-2xl sm:text-3xl">Eliciting <strong>Autistic Adolescent</strong>s' Daily Narratives through <strong>AI-guided Multimodal Journaling</strong></div>
       </div>
       
       <Demo/>

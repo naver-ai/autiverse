@@ -15,7 +15,7 @@ const bibTex = "@inproceedings{yang2026autiverse,<br/>\n\
 
 export const Cite = () => {
     return <Section title="Citing This Work">
-        <div className="border-y-2 border-purple-500/30 py-3">
+        <div className="border-y-2 border-blue-500/30 py-3">
             <div>Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, and Young-Ho Kim. 2026.</div>
             <div className="font-bold">Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling.</div>
             <div>In CHI Conference on Human Factors in Computing Systems (CHI ’26)</div>
@@ -23,7 +23,7 @@ export const Cite = () => {
         </div>
         <div className="mt-4">
             <div className="font-bold mb-1">BibTeX</div>
-            <p className={"p-3 font-mono text-xs sm:text-sm border-2 rounded-lg border-purple-500/30 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
+            <p className={"p-3 font-mono text-xs sm:text-sm border-2 rounded-lg border-blue-500/30 decoration-none"} dangerouslySetInnerHTML={{__html: bibTex}}/>
         </div>
         
     </Section>
