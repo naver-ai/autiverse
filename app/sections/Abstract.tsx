@@ -7,12 +7,12 @@ export const Abstract = () => {
         <p>
         Journaling can potentially serve as an effective method for autistic adolescents to improve narrative skills.
         However, its text-centric nature and high executive functioning demands present barriers to practice.
-        We present Autiverse, an AI-guided multimodal journaling app for tablets that scaffolds storytelling through conversational prompts and visual supports.
-        Autiverse elicits key details through a stepwise dialogue with peer-like, customizable AI and composes them into an editable four-panel comic strip.
+        We present Autiverse, an AI-guided multimodal journaling app for tablets that scaffolds daily narratives through conversational prompts and visual supports.
+        Autiverse elicits key details of an adolescent-selected event through a stepwise dialogue with peer-like, customizable AI and composes them into an editable four-panel comic strip.
         Through a two-week deployment study with 10 autistic adolescent-parent dyads, we examine how Autiverse supports autistic adolescents to organize their daily experience and emotion.
-        Autiverse scaffolded adolescents' coherent narratives, while enabling parents to learn additional details of their child's events and emotions.
-        The customized AI peer created a comfortable space for sharing, fostering enjoyment and a strong sense of agency.
-        We discuss implications for adaptive scaffolding across autism profiles, socio-emotionally appropriate AI peer design, and balancing autonomy with parental involvement.
+        Our findings show Autiverse scaffolded adolescents' coherent narratives, while enabling parents to learn additional details of their child's events and emotions.
+        Moreover, the customized AI peer created a comfortable space for sharing, fostering enjoyment and a strong sense of agency.
+        Drawing on these results, we discuss implications for adaptive scaffolding across autism profiles, socio-emotionally appropriate AI peer design, and balancing autonomy with parental involvement.
         </p>
 
         {/* <div className="flex items-center gap-2 my-4">
